@@ -1,7 +1,7 @@
 import requests
 
-API_KEY = 'e3f74116d21f0d98099a1c3151a6a44f'
-city = 'Lagos'
+API_KEY = '3aaa575bac929632e1e00cf301565205'
+city = 'Kano'
 url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}'
 
 response = requests.get(url)
