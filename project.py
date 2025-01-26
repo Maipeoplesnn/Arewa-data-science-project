@@ -6,4 +6,4 @@ url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}'
 response = requests.get(url)
 data = response.json()
 
-print(data)  # Print the data to see the structure
+print(data)  # Print the data
